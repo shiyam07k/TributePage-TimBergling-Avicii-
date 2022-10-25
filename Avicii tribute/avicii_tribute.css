@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #main {
+    background-image: url(https://avicii.com/wp-content/themes/aviciiboard/assets/img/Tim%20Studio2264_e.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    max-width: 100%;
+    font-family: "Dancing Script", cursive;
+    /* font-family: 'Poppins', sans-serif; */
+  }
+  #header {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+  }
+  
+  #navbar__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+  }
+  
+  #page_logo {
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    width: 30px;
+    animation: logoPulse 5s infinite;
+  }
+  
+  #title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  #description {
+    font-family: "Dancing Script", cursive;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
+  #top__container {
+    height: 100vh;
+  }
+  
+  #center__container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(26, 26, 26, 0), #000000);
+  }
+  
+  #footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+  }
+  
+  /* top container */
+  #about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-50%);
+  }
+  
+  #timeline,
+  #name {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ac9377;
+  }
+  
+  /* center container */
+  #center__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  img {
+    max-width: 500px;
+  }
+  #img-div img {
+    max-width: 500px;
+  }
+  
+  #img-caption {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+  }
+  
+  #discography__container {
+    width: 100%;
+  }
+  #discography__container p {
+    font-size: 14px;
+  }
+  #discography__container li {
+    font-size: 12px;
+  }
+  #discography__container p,
+  li {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #discography__container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  /* footer container */
+  #tribute-info p {
+    font-size: 14px;
+    font-family: "Dancing Script", cursive;
+  }
+  #about_page__container p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+  }
+  #links a,
+  p {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  #learn_more_link,
+  #donate_link {
+    text-indent: space-between;
+    display: flex;
+  }
+  #tribute-info{
+    background-color: black;
+    width: 90%;
+  }
+  .tribute-info-title{
+    color: #ffffff;
+  }
+  .li-contents{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    text-align:justify;
+    justify-content: space-between;
+    margin-left: 30%;
+  }
+  /* keyframes */
+  @keyframes logoPulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
